@@ -1,15 +1,15 @@
 #! /data/data/com.termux/files/usr/bin/bash
 clear
-echo "RRRR   OOO   OOO  TTTTTT X        XDEVILAND"
+echo "RRRR   OOO   OOO  TTTTTT X        X*DEVILAND"
 echo "R   R O   O O   O   TT     X     X"  
 echo "RRRR  O   O O   O   TT       X  X"  
 echo "R R   O   O O   O   TT        X"
 echo "R  RR  OOO   OOO    TT       X  X"
-echo "_______________________"
+echo "____________________________________"
 echo
 read -p "press enter to continue" Enter
 echo
-echo "chose 1&2………"
+echo "Select 1 _&_ 2………"
 echo
 echo "!==================!"
 echo "!   1. Boot Root   !"
@@ -18,10 +18,10 @@ echo "!   2. Just Root   !"
 echo "!==================!"
 echo
 echo
-echo "==================================================="
+echo "============================================================="
                     echo "Version 1.0"
                     echo "Author:dAYOShACKER"
-echo "==================================================="
+echo "============================================================="
        read -p "Enter your choice : " choice
 apt update && apt upgrade -y
 apt install wget -y
