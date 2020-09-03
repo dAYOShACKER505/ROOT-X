@@ -58,7 +58,7 @@ echo
 echo "unexpected error occured choose right one to install or tryagain "
 exit
 fi
-echo
+echo       "Restart your termux for access root"
 echo       "!====================================================!"   
 echo       "!                                                    !"
 echo       "!     Author:dAYOShACKER                             !"
