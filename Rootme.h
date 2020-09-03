@@ -1,14 +1,15 @@
 #! /data/data/com.termux/files/usr/bin/bash
 clear
-echo "RRRR   OOO   OOO  TTTTTT"
-echo "R   R O   O O   O   TT"  
-echo "RRRR  O   O O   O   TT"  
-echo "R R   O   O O   O   TT"
-echo "R  RR  OOO   OOO    TT"
+echo "RRRR   OOO   OOO  TTTTTT X        X"
+echo "R   R O   O O   O   TT     X     X"  
+echo "RRRR  O   O O   O   TT       X  X"  
+echo "R R   O   O O   O   TT        X"
+echo "R  RR  OOO   OOO    TT       X  X"
+echo "_______________________"
 echo
 read -p "press enter to continue" Enter
 echo
-clear
+echo "chose any one"
 echo
 echo " [1] Boot Root "
 echo " [2] Just Root "
@@ -47,7 +48,7 @@ echo " alias rootme='bash /data/data/com.termux/files/usr/etc/Root/start-kali.sh
 cd /data/data/com.termux/files/usr/etc
 source bash.bashrc
 echo
-echo "Restart your termux and type rootme from anywhere of your termux to become root user "
+echo "Restart your termux and type rootme to become root user "
 else
 echo
 echo
@@ -64,4 +65,5 @@ echo
       
       
       echo "Join our Facebook page"
+      echo "Link:https://www.facebook.com/learntermux1/"
       echo "see you soon"
